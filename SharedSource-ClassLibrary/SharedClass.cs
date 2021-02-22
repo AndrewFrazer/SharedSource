@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace SharedSource_ClassLibrary
 {
-    public class Class
+    public static class SharedClass
     {
-        public int Add(int a, int b) => a + b;
+        public static int Add(int a, int b) => a + b;
 
-        public int Subtract(int a, int b) => a - b;
+        public static int Subtract(int a, int b) => a - b;
     }
 }
